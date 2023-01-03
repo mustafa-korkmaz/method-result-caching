@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "MethodResultCaching": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "redisconnstr": "host.docker.internal:6379"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
